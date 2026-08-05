@@ -3,7 +3,7 @@ import axios from "axios";
 import { LogOut } from "lucide-react";
 
 axios.defaults.withCredentials = true; // connection with url
-const API_URL = "http://localhost:5000/user"; // its url for signup n login
+const API_URL = "https://nexflix-backend-zjj1.vercel.app/user"; // its url for signup n login
 
 export const useAuthStore = create((set) => ({
   // Initial state
